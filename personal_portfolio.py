@@ -109,10 +109,10 @@ def find_resume():
 # ---------- HEADER ----------
 st.markdown(
     f"""
-    <div style='display:flex;align-items:center;justify-content:space-between'>
+    <div>
       <div>
-        <h1 style='margin-bottom:0'>{PROFILE['name']}</h1>
-        <p style='margin-top:4px;font-size:1.05rem;color:#808080'>{PROFILE['tagline']}</p>
+        <h1 style='text-align: center;'>{PROFILE['name']}</h1>
+        <p style='text-align: center; margin-top:4px;font-size:1.05rem;color:#808080'>{PROFILE['tagline']}</p>
       </div>
     </div>
     """,
